@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Local logs
+logs/
+*.log
+
+# Raw announcements and downloaded attachments
+data/raw/
+data/announcements/
+data/market_data/
+
+# Intermediate extracted and processed data
+data/extracted/
+data/cleaned/
+data/filtered/
+data/features/
+data/event_study/
+data/processed/
+
+# Local outputs that may contain full text or metadata
+data/results/master_dataset.csv
+data/results/event_study_results.csv
+data/results/filtered_metadata.csv
+data/results/discarded_metadata.csv
+data/results/unclassified_metadata.csv
+
+# Downloader checkpoints and local state
+checkpoint.json
+checkpoint*.json
+
+# Model caches and local model files
+.cache/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Keep documentation, approved figures, and aggregate tables tracked.
+# Do not add blanket ignores for figures/ or tables/.
