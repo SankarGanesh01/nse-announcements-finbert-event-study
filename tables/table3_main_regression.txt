@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              CAR_m1_p1   R-squared:                       0.187
+Model:                            OLS   Adj. R-squared:                  0.140
+Method:                 Least Squares   F-statistic:                     5.234
+Date:                Fri, 07 Aug 2026   Prob (F-statistic):             0.0228
+Time:                        17:27:17   Log-Likelihood:                 385.72
+No. Observations:                 221   AIC:                            -745.4
+Df Residuals:                     208   BIC:                            -701.3
+Df Model:                          12                                         
+Covariance Type:              cluster                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+Intercept                            -0.0546      0.033     -1.658      0.097      -0.119       0.010
+C(company)[T.Bajaj_Finance]           0.0198      0.004      4.882      0.000       0.012       0.028
+C(company)[T.Bajaj_Finserv]           0.0112      0.004      3.077      0.002       0.004       0.018
+C(company)[T.HDFC_Bank]              -0.0168      0.003     -4.882      0.000      -0.024      -0.010
+C(company)[T.ICICI_Bank]              0.0229      0.003      9.107      0.000       0.018       0.028
+C(company)[T.Kotak_Mahindra_Bank]    -0.0089      0.002     -4.631      0.000      -0.013      -0.005
+C(company)[T.PNB_Housing_Finance]     0.0027      0.003      1.064      0.287      -0.002       0.008
+C(company)[T.SBI]                    -0.0086      0.006     -1.550      0.121      -0.020       0.002
+C(company)[T.Shriram_Finance]         0.0038      0.004      0.965      0.335      -0.004       0.012
+C(year)[T.2019]                      -0.0164      0.012     -1.366      0.172      -0.040       0.007
+finbert_score                        -0.0364      0.026     -1.383      0.167      -0.088       0.015
+log_word_count                        0.0113      0.003      3.274      0.001       0.005       0.018
+flesch_reading_ease               -5.839e-05      0.000     -0.129      0.898      -0.001       0.001
+==============================================================================
+Omnibus:                        3.116   Durbin-Watson:                   1.402
+Prob(Omnibus):                  0.211   Jarque-Bera (JB):                3.382
+Skew:                          -0.067   Prob(JB):                        0.184
+Kurtosis:                       3.591   Cond. No.                         488.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

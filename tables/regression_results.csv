@@ -1,0 +1,4 @@
+model,n_obs,r_squared
+Model 1 (FinBERT only),221.0,0.12146373628982676
+Model 2 (FinBERT + controls),221.0,0.18656869039879842
+Model 3 (LM Negative),,
