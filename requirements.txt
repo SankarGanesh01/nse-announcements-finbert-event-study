@@ -1,0 +1,33 @@
+# Data processing
+pandas
+numpy
+scipy
+
+# Statistical modelling and event study
+statsmodels
+
+# NSE announcement downloader
+requests
+tenacity
+
+# PDF and document processing
+PyMuPDF
+pdfplumber
+
+# Financial sentiment analysis
+transformers
+torch
+
+# Text processing and readability
+nltk
+textstat
+
+# Visualisation
+matplotlib
+
+# Progress bars
+tqdm
+
+# Notebook environment
+jupyter
+ipykernel
